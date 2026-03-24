@@ -1,4 +1,5 @@
-# Exp.No:19  
+
+# Exp.No:4a
 ## CLASS AND OBJECTS - AREA OF CIRCLE
 
 ---
@@ -27,17 +28,18 @@ To write a Python program to take the radius from the user and find the area of 
 
 ### PROGRAM
 
-```
-
-
-
+```python
+class saveetha:
+    def slot(self,r):
+        area=3.1416*r*r
+        print(f"Area of circle: {area:.2f}")
+r=float(input())
+obj=saveetha()
+obj.slot(r)
 ```
 
 ### OUTPUT
-
-
+<img width="1184" height="240" alt="image" src="https://github.com/user-attachments/assets/66549f85-20eb-4a7b-a1b9-f92b9207d566" />
 
 ### RESULT
-
-
-
+Therefore, the output is the example to write a Python program to take the radius from the user and find the area of a circle using the class name `umbrella` and function name `rain`.
